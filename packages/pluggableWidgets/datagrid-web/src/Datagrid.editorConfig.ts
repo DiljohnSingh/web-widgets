@@ -224,7 +224,8 @@ export const getPreview = (
                   allowEventPropagation: true,
                   exportValue: "",
                   exportType: "text",
-                  exportFormat: ""
+                  exportDateFormat: "",
+                  exportNumberFormat: ""
               }
           ];
     const columns = rowLayout({

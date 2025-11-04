@@ -3,7 +3,6 @@ import { basename, join, parse } from "path";
 import { homedir, tmpdir } from "node:os";
 import { mkdtemp, stat } from "node:fs/promises";
 import { chmod, cp, exec, mkdir, mv, rm, unzip, zip } from "./shell";
-import chalk from "chalk";
 
 export function findOssReadme(packageRoot: string, widgetName: string, version: string): string | undefined {
     const readmeossPattern = `**/*${widgetName}__${version}__READMEOSS_*.html`;

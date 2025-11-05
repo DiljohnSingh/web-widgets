@@ -17,7 +17,7 @@ export type LoadingTypeEnum = "spinner" | "skeleton";
 
 export type ShowContentAsEnum = "attribute" | "dynamicText" | "customContent";
 
-export type ExportTypeEnum = "text" | "number" | "date" | "boolean";
+export type ExportTypeEnum = "default" | "number" | "date" | "boolean";
 
 export type HidableEnum = "yes" | "hidden" | "no";
 

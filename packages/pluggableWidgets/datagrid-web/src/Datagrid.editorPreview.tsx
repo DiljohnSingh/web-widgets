@@ -58,7 +58,7 @@ const initColumns: ColumnsPreviewType[] = [
         exportValue: "",
         exportDateFormat: "",
         exportNumberFormat: "",
-        exportType: "text"
+        exportType: "default"
     }
 ];
 
